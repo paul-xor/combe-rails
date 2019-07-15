@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
     #skip_forgery_protection only: [:create]
-    include CurrenUserConcern
+    include CurrentUserConcern
 
     def create
         
