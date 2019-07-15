@@ -16,7 +16,6 @@ class SessionsController < ApplicationController
                 user: user
             }
         else
-            byebug
             render json: {status: 401}
         end
     end
